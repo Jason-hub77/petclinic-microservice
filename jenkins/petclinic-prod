@@ -9,7 +9,7 @@ pipeline {
         ECR_REGISTRY="${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
         RANCHER_URL="https://petclinicdt-rancher.jasonawsdevoops.net"
         // Get the project-id from Rancher UI
-        RANCHER_CONTEXT="c-cf5x4:p-cfbqd"
+        RANCHER_CONTEXT="c-hqscp:p-xv8tr"
         RANCHER_CREDS=credentials('rancher-petclinic-credentials')
     }
     stages {
